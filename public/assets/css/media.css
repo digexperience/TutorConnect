@@ -1,0 +1,23 @@
+.profile-pic-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.media-icons {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+}
+
+.media-icons a {
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    color: var(--dark);
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-color: #FFF;
+    background: lightgrey;
+    transition: all 0.3s ease;
+}

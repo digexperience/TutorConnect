@@ -1,0 +1,28 @@
+.first-card {
+    transition: all 0.5s ease;
+}
+
+.second-card {
+    transition: all 0.5s ease;
+}
+
+.shrink {
+    transform: scale(0.5);
+    opacity: 0;
+}
+
+.tutor-signup-card {
+	max-width: 80vw;
+}
+
+.show-card {
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+}
+
+@media (max-width: 600px) {
+	.tutor-signup-card {
+		max-width: 100%;
+	}
+  }
